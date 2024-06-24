@@ -22,6 +22,10 @@ import static io.restassured.RestAssured.*;
     "email": "janesmith@example.com"
   }
 ]
+
+Serialization is a process of converting an object from its current state to a 
+stream of bytes which can be written to a file or transported through a network 
+or stored in a database
  */
 
 public class JSONArraySerializationTest {
@@ -44,6 +48,7 @@ public class JSONArraySerializationTest {
 			user2.setEmail("hail@yahoo.com");
 			
 			User[] users= {user1, user2};
+			
 			
 			ObjectMapper mapper=new ObjectMapper();
 			arrayofUsers=mapper.writerWithDefaultPrettyPrinter().writeValueAsString(users);

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POJO.Serialization.CreateUserWithAddress">
+      <class name="LearningAndRoughWork.PathParamWithQueryPramTest">
         <methods>
-          <include name="createUserWithAddress"/>
+          <include name="validatePathWithMoreThanOneQueryParamTestWithHamCrestAssertion"/>
         </methods>
-      </class> <!-- POJO.Serialization.CreateUserWithAddress -->
+      </class> <!-- LearningAndRoughWork.PathParamWithQueryPramTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
