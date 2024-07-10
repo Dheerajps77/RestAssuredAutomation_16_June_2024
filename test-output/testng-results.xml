@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T22:36:50 IST" name="Default suite" finished-at="2024-06-24T22:36:54 IST" duration-ms="3813">
+  <suite started-at="2024-06-29T19:57:21 IST" name="Default suite" finished-at="2024-06-29T19:57:25 IST" duration-ms="3211">
     <groups>
     </groups>
-    <test started-at="2024-06-24T22:36:50 IST" name="Default test" finished-at="2024-06-24T22:36:54 IST" duration-ms="3813">
-      <class name="LearningAndRoughWork.PathParamWithQueryPramTest">
-        <test-method signature="validatePathWithMoreThanOneQueryParamTestWithHamCrestAssertion()[pri:1, instance:LearningAndRoughWork.PathParamWithQueryPramTest@51e69659]" started-at="2024-06-24T22:36:50 IST" name="validatePathWithMoreThanOneQueryParamTestWithHamCrestAssertion" finished-at="2024-06-24T22:36:54 IST" duration-ms="3764" status="PASS">
+    <test started-at="2024-06-29T19:57:21 IST" name="Default test" finished-at="2024-06-29T19:57:25 IST" duration-ms="3211">
+      <class name="com.petstore.api.tests.storeTest">
+        <test-method signature="storeInventory()[pri:0, instance:com.petstore.api.tests.storeTest@659499f1]" started-at="2024-06-29T19:57:21 IST" name="storeInventory" finished-at="2024-06-29T19:57:25 IST" duration-ms="3161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePathWithMoreThanOneQueryParamTestWithHamCrestAssertion -->
-      </class> <!-- LearningAndRoughWork.PathParamWithQueryPramTest -->
+        </test-method> <!-- storeInventory -->
+      </class> <!-- com.petstore.api.tests.storeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
