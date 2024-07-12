@@ -76,7 +76,7 @@ public class ExtractValuesFromResponse {
 		}
 	}
 	
-	@Test(enabled=false, priority=1)
+	@Test(enabled=true, priority=1)
 	public void testExtractSingleValueUsingExtractMethodWithPathAndQueryParameters()
 	{
 		try {
@@ -88,7 +88,7 @@ public class ExtractValuesFromResponse {
 			//.queryParam("status", status)
 			.contentType(ContentType.JSON)
 			.when()
-			.get("/users/{userId}")
+			.get("/{userId}")
 			.then()
 			.log().all()
 			.statusCode(200)
@@ -118,7 +118,7 @@ public class ExtractValuesFromResponse {
 		}
 	}
 	
-	@Test(enabled=true, priority=3)
+	@Test(enabled=false, priority=3)
 	public void testFilterUserByName()
 	{
 		String nameToFilter="Clementine Bauch";

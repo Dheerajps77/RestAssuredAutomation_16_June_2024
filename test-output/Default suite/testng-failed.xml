@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LearningAndRoughWork.PathParamWithQueryPramTest">
+      <class name="LearningAndRoughWork.ExtractValuesFromResponse">
         <methods>
-          <include name="validatePathWithMoreThanOneQueryParamTestWithHamCrestAssertion"/>
+          <include name="testExtractSingleValueUsingExtractMethodWithPathAndQueryParameters"/>
         </methods>
-      </class> <!-- LearningAndRoughWork.PathParamWithQueryPramTest -->
+      </class> <!-- LearningAndRoughWork.ExtractValuesFromResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
