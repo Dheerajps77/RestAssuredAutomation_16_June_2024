@@ -232,3 +232,12 @@
 19:56:45.662 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 19:56:45.663 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 19:56:45.671 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+16:39:48.498 [main] DEBUG com.petstore.api.tests.UserTests - debugging.....
+16:39:48.520 [main] INFO  com.petstore.api.tests.UserTests - ********** Creating user  ***************
+16:39:52.202 [main] INFO  com.petstore.api.tests.UserTests - **********User is created  ***************
+16:39:52.208 [main] INFO  com.petstore.api.tests.UserTests - ********** Reading User Info ***************
+16:39:53.657 [main] INFO  com.petstore.api.tests.UserTests - **********User info  is displayed ***************
+16:39:53.661 [main] INFO  com.petstore.api.tests.UserTests - ********** Updating User ***************
+16:39:54.890 [main] INFO  com.petstore.api.tests.UserTests - ********** User updated ***************
+16:39:56.120 [main] INFO  com.petstore.api.tests.UserTests - **********   Deleting User  ***************
+16:39:57.289 [main] INFO  com.petstore.api.tests.UserTests - ********** User deleted ***************
