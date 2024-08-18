@@ -1,7 +1,6 @@
 package POJO.DeSerialization;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
@@ -10,6 +9,8 @@ import org.testng.asserts.SoftAssert;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
 public class CompareJSON {

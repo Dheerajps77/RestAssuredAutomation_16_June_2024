@@ -14,6 +14,7 @@ public class Routes {
 	
 	public static String base_URI_Inventory="https://petstore.swagger.io";
 	public static String base_PATH_Inventory="/v2/store";
+	public static String base_PATH_PET="/v2/pet";
 	// Here you will create Store module URL's
 
 	// Pet module
